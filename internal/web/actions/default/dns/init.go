@@ -1,12 +1,12 @@
 package dns
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/dns/clusters"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/dns/domains"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/dns/issues"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/dns/providers"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
+	"github.com/Sh1n3zZ/CloudMemories/internal/configloaders"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/dns/clusters"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/dns/domains"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/dns/issues"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/dns/providers"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/helpers"
 	"github.com/iwind/TeaGo"
 )
 

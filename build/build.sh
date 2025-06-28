@@ -37,15 +37,15 @@ function build() {
 	ZIP="${NAME}-${OS}-${ARCH}-${TAG}-v${VERSION}.zip"
 
 	# build edge-api
-	APINodeVersion=$(lookup-version "$ROOT""/../../EdgeAPI/internal/const/const.go")
+	APINodeVersion=$(lookup-version "$ROOT""/../../CMemoriesAPI/internal/const/const.go")
 	echo "building edge-api v${APINodeVersion} ..."
-	EDGE_API_BUILD_SCRIPT=$ROOT"/../../EdgeAPI/build/build.sh"
+	EDGE_API_BUILD_SCRIPT=$ROOT"/../../CMemoriesAPI/build/build.sh"
 	if [ ! -f "$EDGE_API_BUILD_SCRIPT" ]; then
-		echo "unable to find edge-api build script 'EdgeAPI/build/build.sh'"
+		echo "unable to find edge-api build script 'CMemoriesAPI/build/build.sh'"
 		exit
 	fi
 
-	cd "$ROOT""/../../EdgeAPI/build" || exit
+	cd "$ROOT""/../../CMemoriesAPI/build" || exit
 	echo "=============================="
 	./build.sh "$OS" "$ARCH" $TAG
 	echo "=============================="
@@ -92,7 +92,7 @@ function build() {
 		done
 	fi
 
-	EDGE_API_ZIP_FILE=$ROOT"/../../EdgeAPI/dist/edge-api-${OS}-${ARCH}-${TAG}-v${APINodeVersion}.zip"
+	EDGE_API_ZIP_FILE=$ROOT"/../../CMemoriesAPI/dist/edge-api-${OS}-${ARCH}-${TAG}-v${APINodeVersion}.zip"
 	cp "$EDGE_API_ZIP_FILE" "$DIST"/
 	cd "$DIST"/ || exit
 	unzip -q "$(basename "$EDGE_API_ZIP_FILE")"

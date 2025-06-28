@@ -1,12 +1,12 @@
 package certs
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/certs/acme"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/certs/acme/accounts"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/certs/acme/users"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/certs/ocsp"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
+	"github.com/Sh1n3zZ/CloudMemories/internal/configloaders"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/servers/certs/acme"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/servers/certs/acme/accounts"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/servers/certs/acme/users"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/servers/certs/ocsp"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/helpers"
 	"github.com/iwind/TeaGo"
 )
 

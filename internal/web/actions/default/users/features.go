@@ -1,10 +1,10 @@
 package users
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/users/userutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"github.com/Sh1n3zZ/CMCommon/pkg/langs/codes"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/users/userutils"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/maps"

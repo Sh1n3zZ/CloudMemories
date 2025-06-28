@@ -4,12 +4,13 @@ package utils
 
 import (
 	"fmt"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
+	"os/exec"
+
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
 	"github.com/iwind/TeaGo/Tea"
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/svc"
 	"golang.org/x/sys/windows/svc/mgr"
-	"os/exec"
 )
 
 // 安装服务

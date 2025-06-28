@@ -1,12 +1,12 @@
 package configloaders
 
 import (
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/rpc"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/systemconfigs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/langs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/langs/codes"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
+	"github.com/Sh1n3zZ/CMCommon/pkg/systemconfigs"
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
+	"github.com/Sh1n3zZ/CloudMemories/internal/rpc"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/maps"
 )

@@ -2,14 +2,15 @@ package serverNames
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
+	"strings"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/langs/codes"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
+	"github.com/Sh1n3zZ/CMCommon/pkg/serverconfigs"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/maps"
 	timeutil "github.com/iwind/TeaGo/utils/time"
-	"strings"
 )
 
 // 域名管理

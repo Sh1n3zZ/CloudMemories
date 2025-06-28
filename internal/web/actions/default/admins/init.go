@@ -1,9 +1,9 @@
 package admins
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/admins/accesskeys"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
+	"github.com/Sh1n3zZ/CloudMemories/internal/configloaders"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/admins/accesskeys"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/helpers"
 	"github.com/iwind/TeaGo"
 )
 
@@ -27,8 +27,6 @@ func init() {
 			GetPost("/createPopup", new(accesskeys.CreatePopupAction)).
 			Post("/delete", new(accesskeys.DeleteAction)).
 			Post("/updateIsOn", new(accesskeys.UpdateIsOnAction)).
-
-
 			EndAll()
 	})
 }

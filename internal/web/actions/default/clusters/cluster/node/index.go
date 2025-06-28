@@ -2,10 +2,11 @@ package node
 
 import (
 	"fmt"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/nodeutils"
 	"strconv"
+
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/clusters/cluster/node/nodeutils"
 )
 
 type IndexAction struct {

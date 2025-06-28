@@ -2,8 +2,9 @@ package certs
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/sslconfigs"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/serverconfigs/sslconfigs"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 )
 
 // 所有相关数据

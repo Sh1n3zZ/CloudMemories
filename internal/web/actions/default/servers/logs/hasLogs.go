@@ -3,11 +3,12 @@
 package logs
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	timeutil "github.com/iwind/TeaGo/utils/time"
 	"regexp"
 	"strings"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
+	timeutil "github.com/iwind/TeaGo/utils/time"
 )
 
 // HasLogsAction 检查某个分区是否有日志

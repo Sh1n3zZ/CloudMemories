@@ -1,13 +1,14 @@
 package domainutils
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/dnsconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/iwind/TeaGo/lists"
-	"github.com/iwind/TeaGo/maps"
 	"net"
 	"regexp"
 	"strings"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/dnsconfigs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
+	"github.com/iwind/TeaGo/lists"
+	"github.com/iwind/TeaGo/maps"
 )
 
 // ValidateDomainFormat 校验域名格式

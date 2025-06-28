@@ -3,18 +3,19 @@ package origins
 import (
 	"encoding/json"
 	"errors"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/sslconfigs"
-	"github.com/iwind/TeaGo/actions"
-	"github.com/iwind/TeaGo/types"
 	"net/url"
 	"regexp"
 	"strings"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/configutils"
+	"github.com/Sh1n3zZ/CMCommon/pkg/langs/codes"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
+	"github.com/Sh1n3zZ/CMCommon/pkg/serverconfigs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/serverconfigs/shared"
+	"github.com/Sh1n3zZ/CMCommon/pkg/serverconfigs/sslconfigs"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
+	"github.com/iwind/TeaGo/actions"
+	"github.com/iwind/TeaGo/types"
 )
 
 // AddPopupAction 添加源站

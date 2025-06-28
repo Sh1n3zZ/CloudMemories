@@ -5,13 +5,14 @@ package node
 import (
 	"encoding/json"
 	"errors"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/apinodeutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/iwind/TeaGo/actions"
 	"strings"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/nodeconfigs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
+	"github.com/Sh1n3zZ/CloudMemories/internal/utils/apinodeutils"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
+	"github.com/iwind/TeaGo/actions"
 )
 
 type UpgradePopupAction struct {

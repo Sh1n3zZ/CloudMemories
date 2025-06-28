@@ -4,7 +4,7 @@
 package settings
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
 	"github.com/iwind/TeaGo/maps"
 )
 

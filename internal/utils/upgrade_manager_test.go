@@ -3,9 +3,10 @@
 package utils_test
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils"
 	"testing"
 	"time"
+
+	"github.com/Sh1n3zZ/CloudMemories/internal/utils"
 )
 
 func TestNewUpgradeManager(t *testing.T) {

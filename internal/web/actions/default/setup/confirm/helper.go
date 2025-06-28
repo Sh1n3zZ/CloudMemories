@@ -1,7 +1,7 @@
 package confirm
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/setup"
+	"github.com/Sh1n3zZ/CloudMemories/internal/setup"
 	"github.com/iwind/TeaGo/actions"
 )
 

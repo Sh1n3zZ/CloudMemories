@@ -1,10 +1,11 @@
 package setup
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
+	"strings"
+
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/maps"
-	"strings"
 )
 
 type ValidateAdminAction struct {

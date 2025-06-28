@@ -2,10 +2,11 @@ package log
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/shared"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/langs/codes"
+	"github.com/Sh1n3zZ/CMCommon/pkg/serverconfigs/shared"
+	"github.com/Sh1n3zZ/CloudMemories/internal/configloaders"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 	"github.com/iwind/TeaGo/actions"
 )
 

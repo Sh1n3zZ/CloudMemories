@@ -1,16 +1,16 @@
 package cluster
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/groups"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/cache"
-	ddosProtection "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/ddos-protection"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/dns"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/ssh"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/settings/system"
-	clusters "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/clusterutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
+	"github.com/Sh1n3zZ/CloudMemories/internal/configloaders"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/clusters/cluster/groups"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/clusters/cluster/node"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/clusters/cluster/node/settings/cache"
+	ddosProtection "github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/clusters/cluster/node/settings/ddos-protection"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/clusters/cluster/node/settings/dns"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/clusters/cluster/node/settings/ssh"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/clusters/cluster/node/settings/system"
+	clusters "github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/clusters/clusterutils"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/helpers"
 	"github.com/iwind/TeaGo"
 )
 

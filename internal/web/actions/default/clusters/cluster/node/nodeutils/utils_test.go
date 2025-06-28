@@ -3,9 +3,10 @@
 package nodeutils_test
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/clusters/cluster/node/nodeutils"
-	_ "github.com/iwind/TeaGo/bootstrap"
 	"testing"
+
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/clusters/cluster/node/nodeutils"
+	_ "github.com/iwind/TeaGo/bootstrap"
 )
 
 func TestInstallLocalNode(t *testing.T) {

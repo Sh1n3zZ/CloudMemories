@@ -3,7 +3,7 @@
 
 package serverNames
 
-import "github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
+import "github.com/Sh1n3zZ/CMCommon/pkg/serverconfigs"
 
 func (this *IndexAction) checkPlan(serverId int64, serverNames []*serverconfigs.ServerNameConfig) {
 	// stub

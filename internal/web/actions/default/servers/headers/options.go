@@ -3,8 +3,8 @@
 package headers
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/serverconfigs"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 )
 
 type OptionsAction struct {

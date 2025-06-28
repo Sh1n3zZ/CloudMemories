@@ -1,6 +1,6 @@
 package about
 
-import "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
+import "github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 
 type QqAction struct {
 	actionutils.ParentAction

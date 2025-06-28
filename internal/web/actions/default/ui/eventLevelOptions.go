@@ -1,8 +1,8 @@
 package ui
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/serverconfigs/firewallconfigs"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 )
 
 type EventLevelOptionsAction struct {

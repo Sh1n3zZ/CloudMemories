@@ -3,16 +3,17 @@ package cluster
 import (
 	"encoding/json"
 	"fmt"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/numberutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"time"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/langs/codes"
+	"github.com/Sh1n3zZ/CMCommon/pkg/nodeconfigs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
+	"github.com/Sh1n3zZ/CloudMemories/internal/utils/numberutils"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 	"github.com/iwind/TeaGo/logs"
 	"github.com/iwind/TeaGo/maps"
 	"github.com/iwind/TeaGo/types"
-	"time"
 )
 
 type NodesAction struct {
@@ -291,7 +292,7 @@ func (this *NodesAction) RunGet(params struct {
 			groupMaps = append([]maps.Map{
 				{
 					"id":         -1,
-					"name":       "[" + this.Lang(codes.Node_UngroupedLabel)+ "](" + types.String(countUngroupNodes) + ")",
+					"name":       "[" + this.Lang(codes.Node_UngroupedLabel) + "](" + types.String(countUngroupNodes) + ")",
 					"countNodes": countUngroupNodes,
 				},
 			}, groupMaps...)

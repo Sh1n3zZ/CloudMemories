@@ -3,13 +3,14 @@
 package cluster
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/iwind/TeaGo/Tea"
-	"github.com/iwind/TeaGo/types"
 	"io"
 	"net/http"
 	"os"
 	"regexp"
+
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
+	"github.com/iwind/TeaGo/Tea"
+	"github.com/iwind/TeaGo/types"
 )
 
 type DownloadInstallerAction struct {

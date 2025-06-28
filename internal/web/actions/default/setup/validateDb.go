@@ -1,16 +1,17 @@
 package setup
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
+	"net"
+	"regexp"
+	"strings"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/configutils"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/dbs"
 	"github.com/iwind/TeaGo/maps"
 	stringutil "github.com/iwind/TeaGo/utils/string"
-	"net"
-	"regexp"
-	"strings"
 )
 
 type ValidateDbAction struct {

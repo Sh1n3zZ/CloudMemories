@@ -3,10 +3,11 @@
 package apinodeutils_test
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/apinodeutils"
-	_ "github.com/iwind/TeaGo/bootstrap"
 	"runtime"
 	"testing"
+
+	"github.com/Sh1n3zZ/CloudMemories/internal/utils/apinodeutils"
+	_ "github.com/iwind/TeaGo/bootstrap"
 )
 
 func TestUpgrader_CanUpgrade(t *testing.T) {

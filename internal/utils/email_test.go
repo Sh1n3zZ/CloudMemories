@@ -3,9 +3,10 @@
 package utils_test
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils"
-	"github.com/iwind/TeaGo/assert"
 	"testing"
+
+	"github.com/Sh1n3zZ/CloudMemories/internal/utils"
+	"github.com/iwind/TeaGo/assert"
 )
 
 func TestValidateEmail(t *testing.T) {

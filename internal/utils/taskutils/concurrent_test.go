@@ -3,8 +3,9 @@
 package taskutils_test
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/taskutils"
 	"testing"
+
+	"github.com/Sh1n3zZ/CloudMemories/internal/utils/taskutils"
 )
 
 func TestRunConcurrent(t *testing.T) {

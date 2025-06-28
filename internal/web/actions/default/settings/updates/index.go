@@ -5,16 +5,17 @@ package updates
 import (
 	"encoding/json"
 	"fmt"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/systemconfigs"
-	"github.com/iwind/TeaGo/maps"
-	stringutil "github.com/iwind/TeaGo/utils/string"
 	"io"
 	"net/http"
 	"runtime"
 	"strings"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
+	"github.com/Sh1n3zZ/CMCommon/pkg/systemconfigs"
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
+	"github.com/iwind/TeaGo/maps"
+	stringutil "github.com/iwind/TeaGo/utils/string"
 )
 
 type IndexAction struct {
@@ -33,7 +34,7 @@ func (this *IndexAction) RunGet(params struct {
 
 	// 是否正在升级
 	this.Data["isUpgrading"] = isUpgrading
-	this.Data["upgradeProgress"] = fmt.Sprintf("%.2f", upgradeProgress * 100)
+	this.Data["upgradeProgress"] = fmt.Sprintf("%.2f", upgradeProgress*100)
 	if isUpgrading {
 		this.Data["doCheck"] = false
 	}

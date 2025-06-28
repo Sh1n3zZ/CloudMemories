@@ -1,11 +1,11 @@
-module github.com/TeaOSLab/EdgeAdmin
+module github.com/Sh1n3zZ/CloudMemories
 
 go 1.18
 
-replace github.com/TeaOSLab/EdgeCommon => ../EdgeCommon
+replace github.com/Sh1n3zZ/CMCommon => ../CMCommon
 
 require (
-	github.com/TeaOSLab/EdgeCommon v0.0.0-00010101000000-000000000000
+	github.com/Sh1n3zZ/CMCommon v0.0.0-00010101000000-000000000000
 	github.com/cespare/xxhash v1.1.0
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/iwind/TeaGo v0.0.0-20231214114820-1bfb0013bcf6

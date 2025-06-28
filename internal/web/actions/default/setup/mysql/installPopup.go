@@ -3,9 +3,9 @@
 package mysql
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/setup/mysql/mysqlinstallers"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/setup/mysql/mysqlinstallers/utils"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/setup/mysql/mysqlinstallers"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/setup/mysql/mysqlinstallers/utils"
 )
 
 type InstallPopupAction struct {

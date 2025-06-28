@@ -3,9 +3,9 @@
 package helpers
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/langs"
+	"github.com/Sh1n3zZ/CloudMemories/internal/configloaders"
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
 	"github.com/iwind/TeaGo/actions"
 )
 

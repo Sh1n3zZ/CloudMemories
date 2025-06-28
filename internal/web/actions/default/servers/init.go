@@ -1,10 +1,10 @@
 package servers
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/headers"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/servers/users"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/helpers"
+	"github.com/Sh1n3zZ/CloudMemories/internal/configloaders"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/servers/headers"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/servers/users"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/helpers"
 	"github.com/iwind/TeaGo"
 )
 

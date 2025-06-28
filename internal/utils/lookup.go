@@ -1,12 +1,13 @@
 package utils
 
 import (
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeCommon/pkg/configutils"
+	"sync"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/configutils"
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/logs"
 	"github.com/miekg/dns"
-	"sync"
 )
 
 var sharedDNSClient *dns.Client

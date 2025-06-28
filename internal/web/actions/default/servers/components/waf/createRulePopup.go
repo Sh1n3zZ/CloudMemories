@@ -2,8 +2,9 @@ package waf
 
 import (
 	"encoding/json"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/serverconfigs/firewallconfigs"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/maps"
 )
@@ -70,7 +71,6 @@ func (this *CreateRulePopupAction) RunPost(params struct {
 	params.Must.
 		Field("prefix", params.Prefix).
 		Require("请选择参数")
-
 
 	if len(params.Value) > 4096 {
 		this.FailField("value", "对比值内容长度不能超过4096个字符")

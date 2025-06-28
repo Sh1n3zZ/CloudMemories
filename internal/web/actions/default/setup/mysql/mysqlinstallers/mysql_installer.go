@@ -7,10 +7,6 @@ import (
 	"crypto/rand"
 	"errors"
 	"fmt"
-	executils "github.com/TeaOSLab/EdgeAdmin/internal/utils/exec"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/setup/mysql/mysqlinstallers/utils"
-	stringutil "github.com/iwind/TeaGo/utils/string"
-	timeutil "github.com/iwind/TeaGo/utils/time"
 	"io"
 	"net"
 	"net/http"
@@ -21,6 +17,11 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	executils "github.com/Sh1n3zZ/CloudMemories/internal/utils/exec"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/setup/mysql/mysqlinstallers/utils"
+	stringutil "github.com/iwind/TeaGo/utils/string"
+	timeutil "github.com/iwind/TeaGo/utils/time"
 )
 
 type MySQLInstaller struct {

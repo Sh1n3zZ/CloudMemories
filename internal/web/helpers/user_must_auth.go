@@ -1,26 +1,27 @@
 package helpers
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/events"
-	"github.com/TeaOSLab/EdgeAdmin/internal/goman"
-	"github.com/TeaOSLab/EdgeAdmin/internal/rpc"
-	"github.com/TeaOSLab/EdgeAdmin/internal/setup"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/index/loginutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/nodeconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
-	"github.com/TeaOSLab/EdgeCommon/pkg/systemconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/userconfigs"
-	"github.com/iwind/TeaGo/actions"
-	"github.com/iwind/TeaGo/lists"
-	"github.com/iwind/TeaGo/logs"
-	"github.com/iwind/TeaGo/maps"
 	"net/http"
 	"net/url"
 	"reflect"
 	"strings"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/langs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/nodeconfigs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
+	"github.com/Sh1n3zZ/CMCommon/pkg/systemconfigs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/userconfigs"
+	"github.com/Sh1n3zZ/CloudMemories/internal/configloaders"
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
+	"github.com/Sh1n3zZ/CloudMemories/internal/events"
+	"github.com/Sh1n3zZ/CloudMemories/internal/goman"
+	"github.com/Sh1n3zZ/CloudMemories/internal/rpc"
+	"github.com/Sh1n3zZ/CloudMemories/internal/setup"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/index/loginutils"
+	"github.com/iwind/TeaGo/actions"
+	"github.com/iwind/TeaGo/lists"
+	"github.com/iwind/TeaGo/logs"
+	"github.com/iwind/TeaGo/maps"
 )
 
 var nodeLogsCountChanges = make(chan bool, 1)

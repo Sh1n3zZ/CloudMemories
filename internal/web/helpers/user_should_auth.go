@@ -1,12 +1,13 @@
 package helpers
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/configloaders"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/numberutils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/index/loginutils"
-	"github.com/iwind/TeaGo/actions"
 	"net/http"
+
+	"github.com/Sh1n3zZ/CloudMemories/internal/configloaders"
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
+	"github.com/Sh1n3zZ/CloudMemories/internal/utils/numberutils"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/index/loginutils"
+	"github.com/iwind/TeaGo/actions"
 )
 
 type UserShouldAuth struct {

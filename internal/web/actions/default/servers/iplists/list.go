@@ -2,7 +2,7 @@
 
 package iplists
 
-import "github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
+import "github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 
 type ListAction struct {
 	actionutils.ParentAction
@@ -12,7 +12,7 @@ func (this *ListAction) Init() {
 	this.Nav("", "", "list")
 }
 
-func (this *ListAction) RunGet(params struct{
+func (this *ListAction) RunGet(params struct {
 	ListId int64
 }) {
 	err := InitIPList(this.Parent(), params.ListId)

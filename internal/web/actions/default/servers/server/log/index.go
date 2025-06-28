@@ -1,9 +1,9 @@
 package log
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/iplibrary"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/dao"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"github.com/Sh1n3zZ/CMCommon/pkg/iplibrary"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/dao"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
 	"github.com/iwind/TeaGo/actions"
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/maps"

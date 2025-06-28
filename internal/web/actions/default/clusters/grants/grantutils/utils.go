@@ -1,8 +1,8 @@
 package grantutils
 
 import (
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/langs/codes"
+	"github.com/Sh1n3zZ/CMCommon/pkg/langs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/langs/codes"
 	"github.com/iwind/TeaGo/maps"
 )
 

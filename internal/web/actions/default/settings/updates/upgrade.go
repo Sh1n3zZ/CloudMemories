@@ -4,11 +4,12 @@ package updates
 
 import (
 	"fmt"
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
 	"os"
 	"os/exec"
 	"time"
+
+	"github.com/Sh1n3zZ/CloudMemories/internal/utils"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 )
 
 var upgradeProgress float32

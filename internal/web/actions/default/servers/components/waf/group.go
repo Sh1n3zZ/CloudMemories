@@ -1,12 +1,13 @@
 package waf
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/actionutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/dao"
-	"github.com/TeaOSLab/EdgeCommon/pkg/serverconfigs/firewallconfigs"
+	"strings"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/dao"
+	"github.com/Sh1n3zZ/CMCommon/pkg/serverconfigs/firewallconfigs"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/actionutils"
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/maps"
-	"strings"
 )
 
 type GroupAction struct {

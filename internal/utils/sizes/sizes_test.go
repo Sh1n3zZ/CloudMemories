@@ -3,9 +3,10 @@
 package sizes_test
 
 import (
-	"github.com/TeaOSLab/EdgeAdmin/internal/utils/sizes"
-	"github.com/iwind/TeaGo/assert"
 	"testing"
+
+	"github.com/Sh1n3zZ/CloudMemories/internal/utils/sizes"
+	"github.com/iwind/TeaGo/assert"
 )
 
 func TestSizes(t *testing.T) {

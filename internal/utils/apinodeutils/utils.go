@@ -5,14 +5,15 @@ package apinodeutils
 import (
 	"bytes"
 	"errors"
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/iwind/TeaGo/Tea"
-	stringutil "github.com/iwind/TeaGo/utils/string"
 	"os"
 	"os/exec"
 	"regexp"
 	"runtime"
 	"strings"
+
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
+	"github.com/iwind/TeaGo/Tea"
+	stringutil "github.com/iwind/TeaGo/utils/string"
 )
 
 func CanUpgrade(apiVersion string, osName string, arch string) (canUpgrade bool, reason string) {

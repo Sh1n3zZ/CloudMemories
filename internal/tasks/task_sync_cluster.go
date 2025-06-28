@@ -1,18 +1,19 @@
 package tasks
 
 import (
-	teaconst "github.com/TeaOSLab/EdgeAdmin/internal/const"
-	"github.com/TeaOSLab/EdgeAdmin/internal/events"
-	"github.com/TeaOSLab/EdgeAdmin/internal/goman"
-	"github.com/TeaOSLab/EdgeAdmin/internal/rpc"
-	"github.com/TeaOSLab/EdgeAdmin/internal/setup"
-	"github.com/TeaOSLab/EdgeAdmin/internal/web/actions/default/nodes/nodeutils"
-	"github.com/TeaOSLab/EdgeCommon/pkg/messageconfigs"
-	"github.com/TeaOSLab/EdgeCommon/pkg/rpc/pb"
+	"time"
+
+	"github.com/Sh1n3zZ/CMCommon/pkg/messageconfigs"
+	"github.com/Sh1n3zZ/CMCommon/pkg/rpc/pb"
+	teaconst "github.com/Sh1n3zZ/CloudMemories/internal/const"
+	"github.com/Sh1n3zZ/CloudMemories/internal/events"
+	"github.com/Sh1n3zZ/CloudMemories/internal/goman"
+	"github.com/Sh1n3zZ/CloudMemories/internal/rpc"
+	"github.com/Sh1n3zZ/CloudMemories/internal/setup"
+	"github.com/Sh1n3zZ/CloudMemories/internal/web/actions/default/nodes/nodeutils"
 	_ "github.com/iwind/TeaGo/bootstrap"
 	"github.com/iwind/TeaGo/lists"
 	"github.com/iwind/TeaGo/logs"
-	"time"
 )
 
 func init() {

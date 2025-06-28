@@ -2,7 +2,8 @@ package actionutils
 
 import (
 	"context"
-	"github.com/TeaOSLab/EdgeAdmin/internal/rpc"
+
+	"github.com/Sh1n3zZ/CloudMemories/internal/rpc"
 	"github.com/iwind/TeaGo/maps"
 )
 
